@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ConnectAppToGGFirebase",
+  "steps": [
+    {
+      "title": "Introduction",
+      "description": ""
+    },
+    {
+      "file": "src/utils/firebase/firebase.utils.js",
+      "description": "Initialize and instance firebase app\n",
+      "line": 1
+    },
+    {
+      "file": "src/utils/firebase/firebase.utils.js",
+      "description": "Add the configurate the firebase to connect the app with the firebase instance\n",
+      "line": 13
+    },
+    {
+      "file": "src/utils/firebase/firebase.utils.js",
+      "description": "Import: getAuth, signInWithGoolgePopup, signInwithGoogleRedirect, googleAuthProvider.\n* getAuth to create an instance of auth: export const auth = getAuth();\n* We have multiple ways to signIn, in this example we use Google popup signIn and GGRedirect SignIn\n* Many providers which supply for sign in like facebook, twister ... here we using googleAuthProvider\n\n",
+      "line": 4
+    },
+    {
+      "file": "src/utils/firebase/firebase.utils.js",
+      "description": "* import getAuth() to create \"auth\" instance (giống như firebase, chúng ta phải khởi tạo instance authorization)\n  ex: export const auth = getAuth(); ",
+      "line": 32
+    }
+  ],
+  "ref": "3b96dcaedaaa5ec0c540447984a2addeb67a0b32"
+}
